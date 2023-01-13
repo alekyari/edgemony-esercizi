@@ -1,0 +1,53 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(213, 206, 180);
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.button__container {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.slider {
+  display: flex;
+  flex-direction: column;
+}
+
+.slider__img {
+  width: 300px;
+  height: 500px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.button1,
+.button2,
+.button3 {
+  margin: 4px;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  border: 2px solid rgb(28, 28, 28);
+  cursor: pointer;
+}
+
+.selected {
+  margin: 4px;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  border: 2px solid rgb(28, 28, 28);
+  cursor: pointer;
+  background-color: rgb(241, 165, 25);
+}
