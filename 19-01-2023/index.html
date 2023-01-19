@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" type="module"></script>
+  </head>
+  <body>
+    <header>
+      <h1 style="color: rgb(186, 70, 20)">MY BRAND</h1>
+      <a class="form__link" href="add-element.html">Sell your product NOW!</a>
+      <div class="hamburger">
+        <div class="pallino"></div>
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/263/263142.png"
+          alt=""
+          class="hamburger__img"
+        />
+      </div>
+      <div class="tendina"></div>
+    </header>
+    <div class="loader"></div>
+    <section class="container">
+      <div class="hero">
+        <img
+          id="img-1"
+          class="show"
+          src="https://picsum.photos/900/600?1"
+          alt="alt images"
+        />
+        <img
+          id="img-2"
+          src="https://picsum.photos/900/600?2"
+          alt="alt images"
+        />
+        <img
+          id="img-3"
+          src="https://picsum.photos/900/600?3"
+          alt="alt images"
+        />
+      </div>
+      <div class="controls">
+        <div id="btn-1" class="btn active"></div>
+        <div id="btn-2" class="btn"></div>
+        <div id="btn-3" class="btn"></div>
+      </div>
+      <div class="category__filter">
+        <label for="choosecat">Choose your category here:</label>
+        <form action="" id="homecategory">
+          <select name="choosecat" id="choosecat">
+            <option value="11">General</option>
+            <option value="11">New</option>
+            <option value="170">BestBuy</option>
+            <option value="753">Winter Collection</option>
+            <option value="174">Exclusive</option>
+          </select>
+          <input type="submit" id="buttoncat" value="SUBMIT" />
+        </form>
+      </div>
+      <div class="products"></div>
+    </section>
+    <footer></footer>
+  </body>
+</html>
