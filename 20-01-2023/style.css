@@ -1,0 +1,316 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(208, 198, 165);
+}
+/*header*/
+
+.form__link {
+  text-decoration: none;
+  color: rgb(199, 26, 26);
+  font-size: 1.5rem;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  position: relative;
+}
+
+header .hamburger {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+header .tendina {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  background-color: rgb(202, 186, 165);
+  box-shadow: 0px 10px 10px #000;
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  right: 10px;
+  top: 65px;
+  z-index: 2;
+  opacity: 0;
+  transition: all 0.35s;
+  padding: 20px;
+}
+
+header .tendina .cartRow {
+  display: flex;
+}
+
+header .tendina .cartRow button {
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+}
+
+header .hamburger .line {
+  width: 100%;
+  height: 4px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+/*header*/
+/* hero*/
+section .hero {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 4px 4px #89491450;
+}
+
+section .hero img {
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  transition: all 0.35s;
+  object-fit: contain;
+}
+
+.show {
+  opacity: 1 !important;
+}
+
+section .controls {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+section .controls .btn {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: black;
+  cursor: pointer;
+  box-shadow: 1px 1px #89491450;
+}
+
+.active {
+  background-color: rgb(108, 71, 15) !important;
+  scale: 150%;
+}
+
+/* hero*/
+/* card*/
+section .products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(208, 198, 165);
+}
+
+section .products .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 250px;
+  height: 500px;
+  border-radius: 6px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  margin: 60px 10px 0 10px;
+  background-color: blanchedalmond;
+  padding: 8px;
+}
+
+section .products .card .card__img {
+  width: 250px;
+  height: 280px;
+  border-radius: 4px;
+  object-fit: cover;
+  padding: 10px;
+}
+
+section .products .card .title {
+  font-size: 24px;
+  padding: 5px;
+  margin: 14px 0;
+  color: rgb(194, 135, 46);
+  flex-grow: 1;
+}
+
+section .products .card .price {
+  padding: 5px;
+  color: rgb(108, 71, 15);
+  background-color: rgb(228, 150, 66);
+  border-radius: 20%;
+}
+
+section .products .card .description {
+  flex-grow: 1;
+  padding: 10px;
+  color: rgb(108, 71, 15);
+}
+
+section .products .card button {
+  padding: 5px 10px;
+  background-color: rgb(75, 49, 9);
+  color: white;
+  border: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 10px;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+}
+/*card*/
+
+/* carrello*/
+header .tendina .cart__row {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(108, 71, 15);
+}
+
+header .tendina .cart__row .quantity__cart {
+  font-size: 0.8rem;
+}
+
+header .tendina .cart__row .button {
+  height: 12px;
+  width: 12px;
+  cursor: pointer;
+}
+/* carrello*/
+/* form*/
+
+.form {
+  position: absolute;
+  top: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  margin: 0;
+  font-size: 0.8rem;
+  width: 100%;
+}
+
+#postForm {
+  margin: 40px 0 40px 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+}
+
+input,
+button {
+  position: relative;
+  padding: 8px 10px 8px 5px;
+  border: 2px solid #181d30;
+  border-radius: 4px;
+}
+input,
+textarea,
+select {
+  position: relative;
+  padding: 8px 10px 8px 5px;
+  border: 2px solid #181d30;
+  border-radius: 4px;
+}
+
+label {
+  margin: 10px 0 5px 0;
+  font-size: 0.8rem;
+}
+
+#categoryForm {
+  margin: 40px 0 40px 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+  height: 618px;
+}
+
+.pallino {
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.loading {
+  position: absolute;
+  top: calc(100vh - 40%);
+  right: calc(100vw - 51%);
+  height: 40px;
+  width: 40px;
+  margin: 0 auto 0 auto;
+  -webkit-animation: rotation 0.6s infinite linear;
+  -moz-animation: rotation 0.6s infinite linear;
+  -o-animation: rotation 0.6s infinite linear;
+  animation: rotation 0.6s infinite linear;
+  border-left: 4px solid #fff;
+  border-right: 4px solid #fff;
+  border-bottom: 4px solid #fff;
+  border-top: 4px solid #a62929;
+  border-radius: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  z-index: 6;
+}
+
+/* TODO Add vendor prefixes if you need them */
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h4 {
+  margin: 0 0 30px 0;
+}
+
+.delete__forms {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 300px;
+  height: 618px;
+}
+
+#deleteProductForm {
+  width: 360px;
+  height: 68px;
+}
+#deleteCategoriesForm {
+  width: 360px;
+  height: 68px;
+}

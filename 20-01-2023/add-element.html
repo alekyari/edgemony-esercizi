@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="posts.js" type="module"></script>
+  </head>
+  <body>
+    <header>
+      <h1 style="color: rgb(186, 70, 20)">MY BRAND</h1>
+      <a class="form__link" href="index.html">Home</a>
+      <div class="hamburger">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/263/263142.png"
+          alt=""
+          class="hamburger__img"
+        />
+      </div>
+      <div class="tendina"></div>
+    </header>
+    <section class="container">
+      <div class="hero">
+        <img
+          id="img-1"
+          class="show"
+          src="https://picsum.photos/900/600?1"
+          alt="alt images"
+        />
+        <img
+          id="img-2"
+          src="https://picsum.photos/900/600?2"
+          alt="alt images"
+        />
+        <img
+          id="img-3"
+          src="https://picsum.photos/900/600?3"
+          alt="alt images"
+        />
+      </div>
+      <div class="controls">
+        <div id="btn-1" class="btn active"></div>
+        <div id="btn-2" class="btn"></div>
+        <div id="btn-3" class="btn"></div>
+      </div>
+      <div class="products">        
+          <form id="categoryForm">
+            <h4>Insert your category here!</h4>
+                  <label for="name">Category Name:</label>
+                  <input name="name" type="text" id="categoryName" required/>
+              
+             
+                  <label for="image">Category Image:</label>
+                  <input name="image" type="url" id="categoryImage" required/>
+              
+              <input type="submit" value="SUBMIT">
+          </form>  
+          <div class="delete__forms"> 
+          <form id="deleteProductForm">
+            <h4>Insert the the product you want to delete here!</h4>
+                  <label for="name">Product ID:</label>
+                  <input name="name" type="text" id="productId" required/>
+              
+              <input type="submit" value="SUBMIT">
+          </form>
+          <form id="deleteCategoriesForm">
+            <h4>Insert the the category you want to delete here!</h4>
+                  <label for="name">Category ID:</label>
+                  <input name="name" type="text" id="categoryId" required/>
+              
+              <input type="submit" value="SUBMIT">
+          </form>
+        </div>  
+        <form id="postForm">
+          <h4>Insert your data product here!</h4>
+          <label for="title">Add/Modify:</label>
+          <select required >
+            <option value="POST">Add
+            </option >
+          <option value="PUT">Modify
+            </option>
+          </select>
+
+          <label for="idProduct">Id Product:</label>
+          <input name="idProduct" type="text"  placeholder="Only for Modify operation"/>
+
+          <label for="title">Title:</label>
+          <input name="title" type="text"  placeholder="Insert a Title" id="title" required/>
+          
+          <label for="price">Price:</label>
+          <input name="price" type="number" placeholder="Insert a Price" id="price" required />
+          
+          <label for="image">Image:</label>
+          <input name="image"  type="url" placeholder="Insert one Image url" id="image" required />
+          
+          <label for="category">Category:</label>
+          <input name="category"  type="number" placeholder="Insert a Category" min="1" id="category" required/>
+          
+          <label for="description">Description:</label>  
+          <textarea  name="description"  id="description" placeholder="Insert a Description" placeholder="Description" cols="30"
+          rows="10" required ></textarea>
+          <input type="submit" value="SUBMIT" />
+        </form>
+      </div>
+      </div>
+    </section>
+    <footer></footer>
+  </body>
+</html>
