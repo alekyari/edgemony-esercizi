@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Spare: by Prince Harry, The Duke of Sussex",
+    "author": "Prince Harry, The Duke of Sussex",
+    "genre": ["History, Biography"],
+    "language": "English",
+    "publisher": "Bantam",
+    "price": "£14.00"
+  },
+  {
+    "id": 2,
+    "title": "Bored of Lunch: The Healthy Slow Cooker Book",
+    "author": "Nathan Anthony ",
+    "genre": ["Cook"],
+    "language": "English",
+    "publisher": "Ebury Press",
+    "price": "£8.49"
+  },
+  {
+    "id": 3,
+    "title": "Atomic Habits: the life-changing million-copy",
+    "author": "James Clear ",
+    "genre": ["Art, Business Carrers"],
+    "language": "English",
+    "publisher": "Random House Business",
+    "price": "£9.00"
+  },
+  {
+    "id": 4,
+    "title": "It Ends With Us",
+    "author": "Colleen Hoover ",
+    "genre": ["Travel and Tourism, Social Science, New adult Romance"],
+    "language": "English",
+    "publisher": "Simon & Schuster UK",
+    "price": "£4.50"
+  },
+  {
+    "id": 5,
+    "title": "8 Rules of Love",
+    "author": "Jay Shetty ",
+    "genre": ["Course in Miracles, Divorce & Separation"],
+    "language": "English",
+    "publisher": "Thorsons",
+    "price": "£10.00"
+  },
+  {
+    "id": 5,
+    "title": "Why Has Nobody Told Me This Before?",
+    "author": "Dr Julie Smith ",
+    "genre": ["Medical Science A-Z,General Medical Issues Guide"],
+    "language": "English",
+    "publisher": "Michael Joseph",
+    "price": "£8.00"
+  }
+]
