@@ -1,0 +1,29 @@
+body {
+  background-color: blanchedalmond;
+}
+
+header {
+  text-align: center;
+  background-color: rgb(255, 211, 145);
+  font-size: 0.6rem;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(254, 181, 71);
+  font-size: 0.9rem;
+}
+
+img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+h1 {
+  font-size: 1.55rem;
+}
+
+h2 {
+  font-size: 1.1rem;
+}
