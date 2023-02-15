@@ -1,0 +1,103 @@
+[{
+  "_id": {
+    "$oid": "63ecfd14b5f140b36635cdcb"
+  },
+  "nome": "Mario",
+  "cognome": "Rossi",
+  "anni": "20",
+  "matricola": "10078",
+  "corsi": [
+    "Fisica",
+    "Geometria",
+    "Analisi"
+  ],
+  "esami": [
+    "Fisica",
+    "Chimica"
+  ]
+},{
+  "_id": {
+    "$oid": "63ecfd14b5f140b36635cdcc"
+  },
+  "nome": "Alberto",
+  "cognome": "Bianchi",
+  "anni": "23",
+  "matricola": "10023",
+  "corsi": [
+    "Arte",
+    "Letteratura",
+    "Filosoia"
+  ],
+  "esami": [
+    "Filosofia",
+    "Storia"
+  ]
+},{
+  "_id": {
+    "$oid": "63ecfd14b5f140b36635cdcd"
+  },
+  "nome": "Lucia",
+  "cognome": "Verdi",
+  "anni": "21",
+  "matricola": "10045",
+  "corsi": [
+    "Fisica",
+    "Disegno",
+    "Idraulica"
+  ],
+  "esami": [
+    "Analisi",
+    "Geometria",
+    "Fisica"
+  ]
+},{
+  "_id": {
+    "$oid": "63ecfd14b5f140b36635cdce"
+  },
+  "nome": "Maria",
+  "cognome": "Gialli",
+  "anni": "28",
+  "matricola": "00895",
+  "corsi": [
+    "Impianti",
+    "Fisica Tecnica",
+    "Dinamica delle Strutture"
+  ],
+  "esami": [
+    "Scienze delle Costruzioni",
+    "Chimica",
+    "Estimo"
+  ]
+},{
+  "_id": {
+    "$oid": "63ecfd14b5f140b36635cdcf"
+  },
+  "nome": "Valter",
+  "cognome": "Neri",
+  "anni": "19",
+  "matricola": "10108",
+  "corsi": [
+    "Diritto Romano",
+    "Storia del Diritto",
+    "Filosofia"
+  ],
+  "esami": [
+    "Filosofia",
+    "Storia del Diritto"
+  ]
+},{
+  "_id": {
+    "$oid": "63ecfd14b5f140b36635cdd0"
+  },
+  "nome": "James",
+  "cognome": "Blue",
+  "anni": "25",
+  "matricola": "00990",
+  "corsi": [
+    "Filosifa del Diritto",
+    "Diritto Penale"
+  ],
+  "esami": [
+    "Diritto Civile"
+  ]
+}]

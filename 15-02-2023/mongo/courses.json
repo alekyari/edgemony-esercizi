@@ -1,0 +1,52 @@
+[{
+  "_id": {
+    "$oid": "63ecff18f62d2310563a8251"
+  },
+  "titolo": "Fondamenti di Chimica Inorganica",
+  "materia": "Chimica",
+  "docenti": [
+    "Luigi Palmisano",
+    "Mario Di Benedetto"
+  ]
+},{
+  "_id": {
+    "$oid": "63ecff18f62d2310563a8252"
+  },
+  "titolo": "Dalle equazioni alle funzioni complesse",
+  "materia": "Analisi",
+  "docenti": [
+    "Luisa Ardizzone",
+    "Paola Chiara"
+  ]
+},{
+  "_id": {
+    "$oid": "63ecff18f62d2310563a8254"
+  },
+  "titolo": "La Storia Moderna",
+  "materia": "Storia",
+  "docenti": [
+    "Grazia Pavone",
+    "Enrico Bona",
+    "Rosa Di Pasquale"
+  ]
+},{
+  "_id": {
+    "$oid": "63ecff18f62d2310563a8255"
+  },
+  "titolo": "La Scienza delle Costruzioni",
+  "materia": "Scienze delle Costruzioni",
+  "docenti": [
+    "Umberto Favino",
+    "Rosario Alagna"
+  ]
+},{
+  "_id": {
+    "$oid": "63ecff18f62d2310563a8256"
+  },
+  "titolo": "Disegno Tecnico I",
+  "materia": "Disegno",
+  "docenti": [
+    "Maria Bonano",
+    "Mario Basile"
+  ]
+}]
