@@ -1,0 +1,25 @@
+.Button {
+    padding: 6px 20px;
+    border: 0;
+    background-color: rgb(178, 132, 32);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.35);
+    border-radius: 12px;
+    color: white;
+    cursor: pointer;
+    margin:10px
+  }
+  
+  .Button:hover {
+    box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.75);
+  }
+  
+  .disabled {
+    opacity: 0.35;
+    cursor: inherit;
+    box-shadow: inherit;
+  }
+  
+  .disabled:hover {
+    box-shadow: inherit;
+  }
+  

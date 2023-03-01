@@ -1,0 +1,20 @@
+.Hero {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.Hero img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.Hero h2 {
+  position: absolute;
+  top: calc(50% - 40px);
+  left: calc(50% - 52px);
+  height: 40px;
+  color: white;
+  font-size: 3rem;
+}

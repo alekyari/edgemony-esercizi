@@ -1,0 +1,39 @@
+.ListProducts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px 10px;
+}
+
+.prod{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+
+.list_container{
+  position: absolute;
+  left:0px;
+  top:330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 150px;
+  background-color: rgb(176, 89, 89);
+}
+
+.ListProductsh4{
+  padding-bottom: 30px;
+  font-weight: 0.3rem;
+  
+}
+.listButton{
+    position: absolute;
+    left:0px;
+    top:330px;
+  }
