@@ -1,33 +1,36 @@
-import "./index.css";
+import { useState } from "react";
 import {imagesList} from "./mocks/imagesList";
+import "./index.css";
 
-const Gallery = ({title}) => {
 
- let urlList = imagesList.map((image) =>(image.image))
- let start = 0
- let end = 1
+//  let urlList = imagesList.map((image) =>(image.image))
+//  let start = 0
+//  let end = 1
  
- const interval= () => setInterval(function() { start++;end++;
-  if (start >= urlList.length) {
-  start = 0; end = 1} 
+//  const interval= () => setInterval(function() { start++;end++;
+//   if (start >= urlList.length) {
+//   start = 0; end = 1} 
   
-return (urlList.slice(start,end))
+// return (urlList.slice(start,end))
 
-}, 1000);
-
-
+// }, 1000);
 
 
-  // console.log(slider())
+
+
+const Gallery = () => {
+ let urlList = imagesList.map((image) =>(image.image))
+  const [actualImg, setActualImg] = useState(0);
 
   return (
     <div className="gallery">
-     <img 
-    src="https://www.smartworld.it/images/2022/07/11/apple-show-orig.png"
-   alt={title} />
+      <img src={urlList[actualImg]} alt="image" />
+      <button className="left" onClick={() => setActualImg(actualImg >= 0 ? actualImg -1 : actualImg == urlList.length - 3, console.log(actualImg))}>{"<"}</button>
+      <button className="right"onClick={() => setActualImg(actualImg < urlList.length - 3 ? actualImg +1 : actualImg == 0 , console.log(actualImg))}>{">"}</button>
     </div>
   );
 };
+
 
 export default Gallery;
 
