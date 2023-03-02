@@ -1,0 +1,1 @@
+Come richiesto a lezione ho pushato l'esercizio nella cartella creata ieri O1-02-2023
