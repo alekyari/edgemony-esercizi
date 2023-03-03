@@ -25,8 +25,8 @@ const Gallery = () => {
   return (
     <div className="gallery">
       <img src={urlList[actualImg]} alt="image" />
-      <button className="left" onClick={() => setActualImg(actualImg >= 0 ? actualImg -1 : actualImg == urlList.length - 3, console.log(actualImg))}>{"<"}</button>
-      <button className="right"onClick={() => setActualImg(actualImg < urlList.length - 3 ? actualImg +1 : actualImg == 0 , console.log(actualImg))}>{">"}</button>
+      <button className="left" onClick={() => setActualImg(actualImg >= 0 ? actualImg -1 : actualImg === urlList.length - 3, console.log(actualImg))}>{"<"}</button>
+      <button className="right"onClick={() => setActualImg(actualImg < urlList.length - 3 ? actualImg +1 : actualImg === 0 , console.log(actualImg))}>{">"}</button>
     </div>
   );
 };

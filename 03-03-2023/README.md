@@ -1,0 +1,1 @@
+Il progetto si trova nella cartella O1-02-2023

@@ -1,11 +1,14 @@
 import "./index.css";
 import Button from "../button";
 
-const CardProduct = ({ productData }) => {
+const CardProduct = ({ productData, setSingleProductModal }) => {
   const onGetStock = () =>
     alert(`Ci sono ${productData.stock} prodotti disponibili`);
    
-    const onImageClick = () => window.open(productData.images[0], "_self");
+  
+    const onImageClick = () => {
+      setSingleProductModal(() => productData);
+    };
   
     return (
     <div 
@@ -16,7 +19,7 @@ const CardProduct = ({ productData }) => {
         }, 10, 4, 0.4)`,
         }}
     >
-      <img onClick={onImageClick} src={productData.thumbnail} alt="Apple" />
+      <img  src={productData.thumbnail} alt="Apple" />
       <div className="CardProduct-text-content">
         <h4>{productData.title}</h4>
         <p>{productData.description}</p>
@@ -24,7 +27,10 @@ const CardProduct = ({ productData }) => {
         <hr />
         <p>{productData.brand}</p>
         <p>Sconto del {productData.discountPercentage}%</p>
-        <Button className="listButton" text="Disponibilità" clickFunc={onGetStock} />
+        <div className="card_buttons"> 
+         <Button className="listButton" text="Disponibilità" clickFunc={onGetStock} />
+         <Button text="Immagini"  clickFunc={onImageClick} />
+        </div>
       </div>
     </div>
   );

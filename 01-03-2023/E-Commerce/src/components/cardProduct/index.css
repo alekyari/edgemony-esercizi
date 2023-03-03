@@ -12,11 +12,9 @@
 
 }
 
-
-
 .CardProduct img {
   width: 300px;
-  height: 150px;
+  height: 180px;
   object-fit: cover;
   border-top-right-radius: 12px;
   border-top-left-radius: 12px;
@@ -30,9 +28,21 @@
 }
 
 .CardProduct-text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items:flex-start;
   padding: 10px 20px;
+  flex-grow: 5;
+  font-size: 0.9rem;;
 }
 
 .CardProduct:hover {
  scale:1.1;
+}
+
+.card_buttons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

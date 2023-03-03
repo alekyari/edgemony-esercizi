@@ -9,6 +9,7 @@
 
 .prod{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
  
@@ -36,4 +37,32 @@
     position: absolute;
     left:0px;
     top:330px;
+    z-index: 30;
   }
+
+
+.ListProducts__pagination {
+  display: flex;
+  gap: 5px;
+   padding:20px;
+
+  
+}
+
+.ListProducts__pagination button {
+  height: 30px;
+  width: 30px;
+  border: 0;
+  border-radius: 100%;
+  box-shadow: 0 2px 4px rgb(9, 9, 9);
+  font-size: 0.9rem;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: rgb(103, 94, 94);
+}
+
+.active {
+  background-color: rgb(195, 76, 76) !important;
+  color: white;
+  transition: all 0.35s;
+}
