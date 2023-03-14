@@ -1,0 +1,18 @@
+.toDolist .wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+
+.toDolist .wrap{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.toDolist h3{
+  text-align: center;
+  
+    }
+

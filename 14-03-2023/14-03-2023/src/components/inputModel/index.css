@@ -1,0 +1,48 @@
+.form_wrapper {
+    box-sizing: border-box;
+    width: 620px;;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    padding-bottom:10px;
+    box-sizing: border-box;
+    font-size: 0.9rem;
+    background-color: beige;
+    margin:10px;
+    border-radius: 10px;
+    gap:20px;
+    padding:10px;
+}
+
+
+.toDo_input{
+display: flex;
+gap:30px;
+}
+
+
+.filter_input,
+.button_input,
+.sort_input {
+    width:150px;
+    padding: 8px;
+    border: 0;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.35);
+    border-radius: 6px;
+    color: rgb(205, 131, 34);
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.35s;
+}
+
+.newtoDo_input{
+    padding: 8px 8px 8px 16px;
+    border: 0;
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.35);
+    border-radius: 6px;
+    color:black;
+  }
