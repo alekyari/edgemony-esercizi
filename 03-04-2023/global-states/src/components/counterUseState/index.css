@@ -1,0 +1,9 @@
+.CounterUseState {
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    padding:20px;
+    background-color: antiquewhite;
+    align-items: center;
+    justify-content: center;
+}

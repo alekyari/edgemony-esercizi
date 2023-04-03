@@ -1,0 +1,13 @@
+.CounterRedux {
+    display:flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    align-items: center;
+    justify-content: center;
+    padding:30px;
+    gap:20px
+}
+
+button{
+width:80px;
+}
