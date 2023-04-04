@@ -1,0 +1,43 @@
+
+.Modal{
+  color: rgb(249, 238, 225);
+  display:flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color:rgba(0, 0, 0, 0.743);
+  z-index: 2;
+
+.Modal_Overlay{
+    position: fixed;
+  
+.Modal_Main {
+  padding:30px;
+  display:flex;
+  flex-direction: column;
+  position: fixed;
+  width: 800px;
+  height: 500px;
+  background-color: rgb(132, 203, 9);
+  border-radius: 6px;
+  top: 230px;
+  left: calc(50% - 400px);
+  z-index: 3;
+  font-size: 0.8rem; 
+
+.Modal_Button{
+  width: 30px;
+  height: 18px;
+  color: black;
+  background-color: bisque;
+  border-radius: 3px;
+  border: 0;
+  box-shadow: 2px 3px #88888893 ;
+  cursor: pointer;
+}
+
+  } 
+ }
+}
