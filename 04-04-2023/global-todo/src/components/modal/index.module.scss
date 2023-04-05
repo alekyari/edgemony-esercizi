@@ -7,25 +7,38 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color:rgba(0, 0, 0, 0.743);
-  z-index: 2;
+  
+  // z-index: 2;
 
 .Modal_Overlay{
     position: fixed;
+    background-color:rgba(0, 0, 0, 0.743);
+    width: 100%;
+    height: 100%;}
   
 .Modal_Main {
   padding:30px;
   display:flex;
   flex-direction: column;
   position: fixed;
-  width: 800px;
-  height: 500px;
+  width: 300px;
+  height: 300px;
   background-color: rgb(132, 203, 9);
   border-radius: 6px;
   top: 230px;
-  left: calc(50% - 400px);
-  z-index: 3;
+  left: calc(50% - 170px);
+  // z-index: 3;
   font-size: 0.8rem; 
+ box-shadow: 4px 8px #0202023e ;
+
+ .form {
+      padding:30px;
+  display:flex;
+  flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;;
+  }
 
 .Modal_Button{
   width: 30px;
@@ -40,4 +53,4 @@
 
   } 
  }
-}
+

@@ -5,7 +5,7 @@ export const mainReducer = (state, action) => {
         ...state,
         tasksListData: action.payload,
       };
-    case "CREATE_NEW_TASK":
+    case "ADD_NEW_TASK":
       return {
         ...state,
         tasksListData: [...state.tasksListData, action.payload],
@@ -27,6 +27,30 @@ export const mainReducer = (state, action) => {
           ...state,
           isModalVisibile: !state.isModalVisibile,
         };
+        case "SET_TEMP_TODO_USERNAME":
+      return {
+        ...state,
+        tempTodo: {
+          ...state.tempTodo,
+          username: action.payload,
+        },
+      };
+    case "SET_TEMP_TODO_TODO":
+      return {
+        ...state,
+        tempTodo: {
+          ...state.tempTodo,
+          todo: action.payload,
+        },
+      };
+    case "SET_TEMP_TODO_ID":
+      return {
+        ...state,
+        tempTodo: {
+          ...state.tempTodo,
+          id: state.tasksListData.length + 1,
+        },
+      };
   }
 };
 
