@@ -1,0 +1,16 @@
+.header {   
+    position: relative;
+   
+    margin-bottom:10px;
+    
+
+    .menu{
+    display:flex;
+    flex-direction: row;
+    gap:30px;
+    text-decoration: none;
+    list-style-type: none;
+    margin:10px;
+
+    }
+}
